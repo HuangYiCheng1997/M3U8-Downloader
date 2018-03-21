@@ -103,6 +103,5 @@ if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     m3u8 = 'https://ip49636214.ahcdn.com/key=Z0dka1KoPnfkeoYvJIn62A,s=,end=1521422678,limit=2/data=1521422678/state=Q9jY/reftag=56109644/media=hlsA/ssd4/177/5/84815855.m3u8'
     s.main(m3u8)
-    s.ts_merge()
     end = time.time()
     print('done {}'.format(end - start))
