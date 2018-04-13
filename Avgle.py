@@ -2,7 +2,7 @@ from wxpy import *
 
 
 def log_in():
-    bot = Bot(cache_path=True, console_qr=1)
+    bot = Bot(cache_path=True, console_qr=2)
 
     @bot.register()
     def process_msg(msg):
